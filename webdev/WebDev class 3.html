@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+    display: flex;
+    background-color: darkblue;
+}
+.flex-container > div {
+    background-color: #fd0a0a;
+    margin: 10px;
+    padding: 40px;
+    font-size: 30px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+</head>
+<body>
+    <h1> My Flex Container</h1>
+    <div class="flex-container">
+        <div> H </div>
+        <div> E</div>
+        <DIV> L</DIV>
+        <div> L</div>
+        <div> O</div>
+    </div>
+<body style="text-align:center;">
+
+<h2> FRist Time  A tool tip</h2>
+
+<p>Pratik is a GREAT coder </p>
+
+<div class="tooltip">Idhar Mouse Ghuma 
+  <span class="tooltiptext">Tooltip text</span>
+</div>
+
+<p>Tanttanikeyan</p>
+
+</body>
+</body>
+</html>
+
+<!-- change position of tool tip -- top, bottom, left, right and absulute
+
+Absulute= the tool tip element positions ab suletly within its relatively position parent element
+translate: use to find Tune the position of the tool type text 
+spam: It is an inline element that can be used  -->
